@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d1d5ff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+label {
+    margin-top: 20px;
+    display: block;
+    font-size: 16px;
+    color: #555;
+}
+
+#cityInput {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #470ffe;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b6cac;
+}
+
+#cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Added margin-top for separation */
+}
+
+#weatherInfo,
+#airQualityInfo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#map {
+    height: 300px; /* Initial height */
+    width: 100%; /* Full width */
+    max-width: 500px; /* Maximum width to ensure it doesn't become too wide */
+    margin-top: 20px; /* Added margin-top for separation */
+}
